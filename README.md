@@ -14,7 +14,7 @@
 |`["a", "b"].join(",")` | `["a", "b"] |> Enum.join(",")`|
 
 
-## Array slicing stuff
+## Array/Dictionary access
 
 | Python 	| Elixir 	|
 |-------- |--------	|
