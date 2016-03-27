@@ -1,5 +1,11 @@
 # elixir-cheatsheet
 
+## Basic stuff
+
+| Python 	| Elixir 	|
+|-------- |--------	|
+|`len(x)` | `x |> length`|
+
 ## String stuff
 
 | Python 	| Elixir 	|
