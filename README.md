@@ -5,6 +5,7 @@
 | Python 	| Elixir 	|
 |-------- |--------	|
 |`len(x)` | `x |> length`|
+|`min(1, 2)` | `[1, 2] |> Enum.min`|
 
 ## String stuff
 
