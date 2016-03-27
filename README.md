@@ -19,6 +19,7 @@
 | Python 	| Elixir 	|
 |-------- |--------	|
 |`arr[0]` | `arr |> Enum.at(0)`|
+|`dic['w']` | `dic |> Map.fetch!("w")`|
 |`arr[0:]` | `arr |> Enum.slice(1..-1)`|
 
 ## Functional stuff
