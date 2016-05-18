@@ -13,7 +13,7 @@
 |-------- |--------	|
 |`"a,b,c".split(',')` | `"a,b,c" |> String.split(",")`|
 |`["a", "b"].join(",")` | `["a", "b"] |> Enum.join(",")`|
-| String replace | TBD |
+| String replace | `"abc" |> String.replace("b", "B")` |
 
 ## Array/Dictionary access
 
