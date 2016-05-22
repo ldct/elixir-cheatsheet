@@ -15,14 +15,18 @@
 |`["a", "b"].join(",")` | `["a", "b"] |> Enum.join(",")`|
 | String replace | `"abc" |> String.replace("b", "B")` |
 
+## Regex
+
+`String.replace(~r/\<.*\>/U, "<i>hi</i>"`
+
 ## Array/Dictionary access
 
 | Python 	| Elixir 	|
 |-------- |--------	|
 |`arr[0]` | `arr |> Enum.at(0)`|
 |`dic['w']` | `dic |> Map.fetch!("w")`|
-|`arr[0:]` | `arr |> Enum.slice(1..-1)`|
-|`arr[a:b]` | TBD |
+|`arr[1:]` | `arr |> Enum.slice(1..-1)`|
+|`arr[a:b]` | `arr |> Enum.slice(a..b-1)` |
 
 ## Functional stuff
 
