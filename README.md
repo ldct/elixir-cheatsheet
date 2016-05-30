@@ -27,6 +27,7 @@
 |`dic['w']` | `dic |> Map.fetch!("w")`|
 |`arr[1:]` | `arr |> Enum.slice(1..-1)`|
 |`arr[a:b]` | `arr |> Enum.slice(a..b-1)` |
+|`arr[::-1] | `arr |> Enum.reverse` |
 
 ## Functional stuff
 
