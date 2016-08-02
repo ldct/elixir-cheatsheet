@@ -14,6 +14,7 @@
 |`"a,b,c".split(',')` | `"a,b,c" |> String.split(",")`|
 |`["a", "b"].join(",")` | `["a", "b"] |> Enum.join(",")`|
 | String replace | `"abc" |> String.replace("b", "B")` |
+| String slice | `"abc" |> String.slice(0..1)`|
 
 ## Regex
 
