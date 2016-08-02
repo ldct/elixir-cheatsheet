@@ -36,3 +36,11 @@
 |-------- |--------	|
 |`[f(x) for x in xs]` | `xs |> Enum.map(fn x -> f x end)`|
 |`[x for x in xs if p(x)` | `xs |> Enum.filter(fn x -> p x end)`|
+
+## Hash stuff
+
+```
+    hash = :crypto.hash(:sha, contents)
+    |> Base.encode16
+    |> String.downcase
+```
