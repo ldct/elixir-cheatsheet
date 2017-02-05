@@ -27,7 +27,7 @@
 |`arr[0]` | `arr |> Enum.at(0)`|
 |`arr[1:]` | `arr |> Enum.slice(1..-1)`|
 |`arr[a:b]` | `arr |> Enum.slice(a..b-1)` |
-|`arr[::-1] | `arr |> Enum.reverse` |
+|`arr[::-1]` | `arr |> Enum.reverse` |
 
 ## Dictionary
 
