@@ -20,15 +20,21 @@
 
 `String.replace(~r/\<.*\>/U, "<i>hi</i>"`
 
-## Array/Dictionary access
+## Array access
 
 | Python 	| Elixir 	|
 |-------- |--------	|
 |`arr[0]` | `arr |> Enum.at(0)`|
-|`dic['w']` | `dic |> Map.fetch!("w")`|
 |`arr[1:]` | `arr |> Enum.slice(1..-1)`|
 |`arr[a:b]` | `arr |> Enum.slice(a..b-1)` |
 |`arr[::-1] | `arr |> Enum.reverse` |
+
+## Dictionary
+
+| Python 	| Elixir 	|
+|-------- |--------	|
+|`dic['w']` | `dic |> Map.fetch!("w")`|
+|`dic.values()` | `dic |> Map.values`|
 
 ## Functional stuff
 
